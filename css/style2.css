@@ -1,0 +1,48 @@
+{
+	margin:0;
+	padding:0;
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:10vh;
+	font-family:arial;
+	gap:16px;
+	background-image: url("tricoando.png");
+}
+
+.card{
+	background-color:#fff;
+	width:100px;
+	height:100px;
+	border-radius:12px;
+	box-shadow:4px 4px 12px #aaaa;
+}
+
+.card div{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	gap:4px;
+	height:50%;
+
+}
+
+.card h1{
+	font-size:1.2rem;
+}
+
+.card button{
+	background-color:#2192ff;
+	height:30px;
+	border:none;
+	padding:4px;
+	width:80%;
+	color:#fff;
+	font-weight:bold;
+	border-radius:4px;
+
+}
