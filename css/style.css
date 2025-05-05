@@ -1,4 +1,4 @@
-.{
+*{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -6,7 +6,7 @@
 
 }
 body{
-	background-color: #4a4141;
+	background-color: #4f4d4d;
 }
 
 .center{
@@ -34,6 +34,9 @@ header{
 .logo{
 	width:50%;
 }
+.navegation>a{
+	padding: 0px 20px;
+}
 
 .menu{
 	padding-top:30px;
@@ -44,15 +47,17 @@ header{
 
 .menu a{
 	text-decoration:none;
-	color:rgb(255, 241, 241);
-	font-weight: bold; 15px
+	color:rgb(220, 216, 216);
+	font-weight: bold;
 	margin-right:15px;
+	position: sticky;
+	
 
 }
 
-selection.sobre{
+section.sobre{
 	height:calc(100% - 200px);
-	position: relative ;
+	position:relative ;
 }
 
 .extra{ 
@@ -63,7 +68,7 @@ selection.sobre{
 	width:1200px;
 	height:1200px;
 	border-radius:50%;
-	background-color:#5d5d5d;
+	background-color:#353535;
 }
 
 .social-midia{
